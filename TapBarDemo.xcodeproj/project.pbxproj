@@ -14,6 +14,7 @@
 		7E36B92A1DB0747600B866F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E36B9281DB0747600B866F1 /* LaunchScreen.storyboard */; };
 		7E36B9351DB0747600B866F1 /* TapBarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B9341DB0747600B866F1 /* TapBarDemoTests.swift */; };
 		7E36B9401DB0747600B866F1 /* TapBarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B93F1DB0747600B866F1 /* TapBarDemoUITests.swift */; };
+		7E36B94E1DB07A0100B866F1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B94D1DB07A0100B866F1 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7E36B93B1DB0747600B866F1 /* TapBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E36B93F1DB0747600B866F1 /* TapBarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarDemoUITests.swift; sourceTree = "<group>"; };
 		7E36B9411DB0747600B866F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E36B94D1DB07A0100B866F1 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7E36B9261DB0747600B866F1 /* Assets.xcassets */,
 				7E36B9281DB0747600B866F1 /* LaunchScreen.storyboard */,
 				7E36B92B1DB0747600B866F1 /* Info.plist */,
+				7E36B94D1DB07A0100B866F1 /* FeedViewController.swift */,
 			);
 			path = TapBarDemo;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E36B9221DB0747600B866F1 /* ViewController.swift in Sources */,
+				7E36B94E1DB07A0100B866F1 /* FeedViewController.swift in Sources */,
 				7E36B9201DB0747600B866F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
